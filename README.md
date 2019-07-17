@@ -9,5 +9,16 @@
 
 ### 部署命令
 
-#### wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+#### 1.安装编译环境
 
+```
+yum install git gcc gcc-c++ make automake autoconf libtool pcre pcre-devel zlib zlib-devel openssl-devel wget vim -y
+```
+
+#### 2.下载部署脚本，并执行
+
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+```
+
+#### 3.根据实际情况进行安装
